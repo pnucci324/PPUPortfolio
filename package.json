@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pnucci324/ppuportfolio/issues"
   },
-  "homepage": "https://github.com/pnucci324/ppuportfolio#readme"
+  "homepage": "https://github.com/pnucci324/ppuportfolio#readme",
+  "dependencies": {
+    "express3-handlebars": "^0.5.2"
+  }
 }
