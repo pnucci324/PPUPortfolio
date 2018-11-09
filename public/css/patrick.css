@@ -1,0 +1,15 @@
+.nav{
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.nav a{
+	padding: 5px;
+	backgorund color: #0000FF;
+	color: #fffff;
+	font-size: 1.5em;
+	text-decoration: none;
+	width: 50px;
+}
