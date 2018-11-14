@@ -20,6 +20,10 @@ app.get('/projects',function(req,res){
 	res.render('projects');
 });
 
+app.get('/resume',function(req,res){
+	res.render('resume');
+});
+
 //404 page
 app.use(function(req, res){
 	res.type('text/plain');
