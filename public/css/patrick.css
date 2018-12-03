@@ -7,9 +7,14 @@
 
 .nav a{
 	padding: 5px;
-	backgorund color: #0000FF;
-	color: #fffff;
+	color: #00ff00;
 	font-size: 1.5em;
 	text-decoration: none;
 	width: 50px;
 }
+
+.information{
+	color: white;
+}
+
+
