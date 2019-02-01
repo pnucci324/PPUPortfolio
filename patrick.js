@@ -8,7 +8,7 @@ var handlebars = require('express3-handlebars')
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3001);
 
 app.use(express.static(__dirname + '/public'));
 
@@ -20,8 +20,12 @@ app.get('/projects',function(req,res){
 	res.render('projects');
 });
 
-app.get('/resume',function(req,res){
-	res.render('resume');
+app.get('/service',function(req,res){
+	res.render('service');
+});
+
+app.get('/about',function(req,res){
+	res.render('about');
 });
 
 //404 page
