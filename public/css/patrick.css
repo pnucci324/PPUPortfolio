@@ -1,6 +1,6 @@
 .nav a{
 	padding: 5px;
-	color: white;
+	color: maroon;
 	font-size: 1.5em;
 	text-decoration: none;
 	width: 50px;
@@ -26,7 +26,7 @@ html, body{
 	
 	overflow: auto;
 	padding-bottom: 100px;
-	background-color: black;
+	background-image: url('/img/main_background.jpg');
 }
 
 #footer{
@@ -38,17 +38,23 @@ html, body{
 }
 
 #welcome{
-	color: white;
+	color: maroon;
 	text-align: center;
 }
 
 #intro{
-	color: white;
+	color: maroon;
 	text-align: center;
 }
 
 #title{
-	color: white;
+	color: maroon;
+	text-align: center;
+}
+
+#service{
+	
+	color: maroon;
 	text-align: center;
 }
 
