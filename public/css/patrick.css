@@ -51,9 +51,22 @@ html, body{
 	color: maroon;
 	text-align: center;
 }
+#project{
+	color:maroon;
+	text-align: center;
+}
 
 #service{
 	
+	color: maroon;
+	text-align: center;
+}
+
+#client{
+	color: maroon;
+	text-align: center;
+}
+#contact{
 	color: maroon;
 	text-align: center;
 }
