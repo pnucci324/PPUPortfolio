@@ -4,7 +4,7 @@
 	font-size: 1.5em;
 	text-decoration: none;
 	width: 50px;
-	
+
 }
 
 *{
@@ -14,7 +14,7 @@
 
 html, body{
 	height: 100%
-	
+
 }
 
 
@@ -23,7 +23,7 @@ html, body{
 }
 
 #main{
-	
+
 	overflow: auto;
 	padding-bottom: 100px;
 	background-image: url('/img/main_background.jpg');
@@ -57,7 +57,7 @@ html, body{
 }
 
 #service{
-	
+
 	color: maroon;
 	text-align: center;
 }
@@ -68,5 +68,17 @@ html, body{
 }
 #contact{
 	color: maroon;
+	text-align: center;
+}
+#info{
+	color: inherit;
+	text-align: center;
+}
+.email{
+	color:inherit;
+	text-align: center;
+}
+.number{
+	color:inherit;
 	text-align: center;
 }
