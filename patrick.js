@@ -21,7 +21,7 @@ app.get('/', function(req, res){
 	);
 });
 
-app.get('/projects',function(req,res){
+app.get('projects',function(req,res){
 	res.render('projects',
 		{
 			page: 'projects',
@@ -31,7 +31,7 @@ app.get('/projects',function(req,res){
 	);
 });
 
-app.get('/service',function(req,res){
+app.get('service',function(req,res){
 	res.render('service',
 		{
 			page: 'service',
@@ -41,7 +41,7 @@ app.get('/service',function(req,res){
 	);
 });
 
-app.get('/about',function(req,res){
+app.get('about',function(req,res){
 	res.render('about',
 		{
 			page: 'about',
@@ -51,7 +51,7 @@ app.get('/about',function(req,res){
 	);
 });
 	
-app.get('/clients',function(req,res){
+app.get('clients',function(req,res){
 	res.render('clients',
 		{
 			page: 'clients',
@@ -61,7 +61,7 @@ app.get('/clients',function(req,res){
 	);
 });
 
-app.get('/contact',function(req,res){
+app.get('contact',function(req,res){
 	res.render('contact',
 		{
 			page: 'contact',
